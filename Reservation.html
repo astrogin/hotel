@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Reservation</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/reservation.css">
+	<link rel="stylesheet" href="css/selectric.css">
+	<script type="text/javascript" src="js/jquery.selectric.js"></script>
+	<script type="text/javascript" src="js/zebra_datepicker.js"></script>
+	<link type="text/css" rel="stylesheet" href="css/metallic.css">
+</head>
+<body>
+	<header class="black clearfix">
+	<div class="container_fixed800">
+	   <div class="container">
+	   	<div class="logo">
+		  <a href="index.html" class="logotype">
+		    <img src="img/logo_icon.png" alt="logotype">
+		  </a>
+		</div>
+		<!--MENU START max-width 768px-->
+	   	<div class="menu"></div>
+		</div>
+		<div class="logo" id="fixed800">
+		  <a href="indexhotel.html" class="logotype">
+		    <img src="img/logo_icon.png" alt="logotype">
+		  </a>
+		</div>
+		<div class="container_menu">
+		  <div class="left_menu">
+		  <ul class="menu_body">
+			    <li><a href="hotel.html">Hotel</a></li>
+			    <li><a href="room.html">Rooms &#38; Suites</a></li>
+			    <li><a class="active_link_hotel" href="Reservation.html">Reservation</a></li>
+		  </ul>
+		  </div>
+		  <div class="right_menu">
+		  <ul class="menu_body">
+			   <li><a href="">Activities</a></li>
+			   <li><a href="">Contact</a></li>
+			   <li class="lang">En
+			     <ul class="lang_menu">
+			     	<li class="rus"><a href="">Rus</a></li>
+			     	<li class="bel"><a href="">Bel</a></li>
+			     </ul>
+			   </li>
+		  </ul>
+		  </div>
+		  </div>
+		  <!--menu start min-width 800px-->
+		  <div class="container_menu800">
+		  	<ul class="menu800">
+		  		<li><a href="hotel.html">Hotel</a></li>
+		  		<li><a href="room.html">Rooms &#38; Suites</a></li>
+		  		<li><a class="active_link_hotel" href="Reservation.html">Reservation</a></li>
+		  		<li><a href="">Activities</a></li>
+		  		<li><a href="">Contact</a></li>
+		  		<li class="lang">En
+			     <ul class="lang_menu">
+			     	<li class="rus"><a href="">Rus</a></li>
+			     	<li class="bel"><a href="">Bel</a></li>
+			     </ul>
+			   </li>
+		  	</ul>
+		  </div>
+		</div>
+	</header>
+	<div class="simple">
+			<div class="figure_for">
+				<div class="figure_container">
+					<div class="context"><div class="fixed_middle">RESERVATION</div></div>
+				</div>
+			</div>
+	</div>
+	<div class="container_tab_menu">
+		<div class="opacity_background">
+			<ul class="top_tab_menu">
+				<li class="top_tab_menu_li active" data-class="first_tab_a">
+					<a class="tabs_control_link" href="">
+						<div class="icon_menu_on_tabs"><span class="menu_on_tabs_text_fixed">1</span></div>
+					Basic Information
+					</a>
+				</li>
+				<li class="top_tab_menu_li" data-class="second_tab_a">
+					<a class="tabs_control_link" href="">
+						<div class="icon_menu_on_tabs"><span class="menu_on_tabs_text_fixed">2</span></div>
+						Select Room
+					</a>
+				</li>
+				<li class="top_tab_menu_li" data-class="treaty_tab_a">
+					<a class="tabs_control_link" href="">
+						<div class="icon_menu_on_tabs"><span class="menu_on_tabs_text_fixed">3</span></div>
+						Image Gallery
+					</a>
+				</li>
+				<li class="top_tab_menu_li" data-class="fourth_tab_a">
+					<a class="tabs_control_link" href="">
+						<div class="icon_menu_on_tabs"><span class="menu_on_tabs_text_fixed">4</span></div>
+						Finish
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="container_basic_information_form">
+			<div class="container_basic_information_form_max_width_1140">
+				<div class="basic_information_start_text">
+					<h2>Basic Information</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at nibh varius odio sollicitudin blandit nec eu elit. Suspendisse ac risus nunc, quis elementum lorem. Pellentesque vehicula egestas eros nec commodo.
+					Phasellus adipiscing pretium sem, id congue erat fermentum at. Fusce dapibus felis non ante gravida </p>
+				</div>
+			<div class="container_datapicker_basic_information">
+				<div class="basic_information_datepicker_start displayer_fixeder1">
+					<label for="datepickerin1">Check-In:</label><br>
+					<input id="datepickerin1" class="datepicker" type="text" placeholder="From">
+				</div>
+				<div class="basic_information_datepicker2_start displayer_fixeder1">
+					<label for="datepickerin2">Check-Out:</label><br>
+					<input id="datepickerin2" class="datepicker" type="text" placeholder="From">
+				</div>
+			</div>
+			<div class="container_all_select_basic_information">
+				<div class="basic_information_selecter_start displayer_fixeder2 margin_fixed_bi_sel">
+					<label for="selecter">Number of rooms:</label><br>
+					<select class="select" name="Select room" id="selecter">
+								<option value="Mustard">1</option>
+								<option value="Ketchup">2</option>
+								<option value="Relish">3</option>
+					</select>
+				</div>
+				<div class="basic_information_selecter2_start displayer_fixeder2 margin_fixed_bi_sel">
+					<label for="selecter">Adults per room:</label><br>
+					<select class="select" name="Select room" id="selecter2">
+								<option value="Mustard">1</option>
+								<option value="Ketchup">2</option>
+								<option value="Relish">3</option>
+					</select>
+				</div>
+				<div class="basic_information_selecter3_start displayer_fixeder2 margin_fixed_bi_sel">
+					<label for="selecter">Children 0-5:</label><br>
+					<select class="select" name="Select room" id="selecter3">
+								<option value="Mustard">0</option>
+								<option value="Ketchup">1</option>
+								<option value="Relish">2</option>
+								<option value="Relish">3</option>
+								<option value="Relish">4</option>
+								<option value="Relish">5</option>
+					</select>
+				</div>
+				<div class="basic_information_selecter4_start displayer_fixeder2">
+					<label for="selecter">Children 6-12:</label><br>
+					<select class="select" name="Select room" id="selecter4">
+								<option value="Mustard">6</option>
+								<option value="Ketchup">7</option>
+								<option value="Relish">8</option>
+								<option value="Relish">9</option>
+								<option value="Relish">10</option>
+								<option value="Relish">11</option>
+								<option value="Relish">12</option>
+					</select>
+				</div>
+			</div>
+				<button class="buttonformid" type="submit"><strong>Book now</strong></button>
+			</div>
+		</div>
+		<div class="container_footer">
+ 	<div class="container_fix">
+ 		<div class="corporation">
+ 			&#169; 2012 Paradise Hotel. All Rights Reserved.
+ 		</div>
+ 		<div class="social">
+ 			<a href=""><div class="tt fb"></div></a>
+ 			<a href=""><div class="tt tw"></div></a>
+ 			<a href=""><div class="tt go"></div></a>
+ 			<a href=""><div class="tt in"></div></a>
+ 			<a href=""><div class="tt tube"></div></a>
+ 		</div>
+ 		<div class="menu_footer">
+ 			<ul class="menu_ul">
+ 				<li><a href="index.html">Home</a></li>
+ 				<li><a href="#">Rooms &#38; Suites</a></li>
+ 				<li><a href="#">Reservation</a></li>
+ 				<li><a href="#">Contact</a></li>
+ 			</ul>
+ 		</div>
+ 	</div>
+ </div>
+	<script>
+		 $(document).ready(function(){
+	//menu
+	$('.menu').click(function(){
+	   $('.menu_body').slideToggle('medium');});
+	 $('.lang').click(function(){
+	   $('.lang_menu').slideToggle('medium');});
+	 $('select, .select').selectric({maxHeight: 100});
+    $('input.datepicker').Zebra_DatePicker({format:'d/m/Y'});
+	});
+	</script>
+</body>
+</html>

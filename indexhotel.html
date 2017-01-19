@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>hotel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="MobileOptimized" content="320"/>
+	<meta name="HandheldFriendly" content="true"/>
+    <!--slider-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.glide.js"></script>
+	<!--selectors-->
+	<link rel="stylesheet" href="css/selectric.css">
+	<script type="text/javascript" src="js/jquery.selectric.js"></script>
+	<!--date picker-->
+	<script type="text/javascript" src="js/zebra_datepicker.js"></script>
+	<link type="text/css" rel="stylesheet" href="css/metallic.css">
+	<!--index css-->
+	<link type="text/css" rel="stylesheet" href="css/indexhotel.css">
+	<!--img adaptive-->
+    <script src="js/picturefill.js"></script>
+    <script src="js/matchmedia.js"></script>
+</head>
+<body>
+	<header class="black clearfix">
+	<div class="container_fixed800">
+	   <div class="container">
+	   	<div class="logo">
+		  <a href="indexhotel.html" class="logotype">
+		    <img src="img/logo_icon.png" alt="logotype">
+		  </a>
+		</div>
+		<!--MENU START max-width 768px-->
+	   	<div class="menu"></div>
+		</div>
+		<div class="logo" id="fixed800">
+		  <a href="indexhotel.html" class="logotype">
+		    <img src="img/logo_icon.png" alt="logotype">
+		  </a>
+		</div>
+		<div class="container_menu">
+		  <div class="left_menu">
+		  <ul class="menu_body">
+			    <li><a href="hotel.html">Hotel</a></li>
+			    <li><a href="room.html">Rooms &#38; Suites</a></li>
+			    <li><a href="Reservation.html">Reservation</a></li>
+		  </ul>
+		  </div>
+		  <div class="right_menu">
+		  <ul class="menu_body">
+			   <li><a href="">Activities</a></li>
+			   <li><a href="">Contact</a></li>
+			   <li class="lang">En
+			     <ul class="lang_menu">
+			     	<li class="rus"><a href="">Rus</a></li>
+			     	<li class="bel"><a href="">Bel</a></li>
+			     </ul>
+			   </li>
+		  </ul>
+		  </div>
+		  </div>
+		  <!--menu start min-width 800px-->
+		  <div class="container_menu800">
+		  	<ul class="menu800">
+		  		<li><a href="hotel.html">Hotel</a></li>
+		  		<li><a href="room.html">Rooms &#38; Suites</a></li>
+		  		<li><a href="Reservation.html">Reservation</a></li>
+		  		<li><a href="">Activities</a></li>
+		  		<li><a href="">Contact</a></li>
+		  		<li class="lang">En
+			     <ul class="lang_menu">
+			     	<li class="rus"><a href="">Rus</a></li>
+			     	<li class="bel"><a href="">Bel</a></li>
+			     </ul>
+			   </li>
+		  	</ul>
+		  </div>
+		</div>
+	</header>
+	<!--slider start-->
+<div class="container1">
+	<div class="slider">
+			<ul class="slides fixed">
+			  <li class="slide"><div class="box">
+			  <span data-picture data-alt="A giant stone face at The Bayon temple in Angkor Thom, Cambodia">
+        <span data-src="img/slider_one.jpg"></span>
+        <span data-src="img/slider_img_new.jpg"     data-media="(min-width: 800px)"></span>
+
+        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+        <noscript>
+            <img src="img/slider_one.jpg" alt="A giant stone face at The Bayon temple in Angkor Thom, Cambodia">
+        </noscript>
+    </span>
+    </div></li>
+			  <li class="slide"><div class="box">
+			  <span data-picture data-alt="A giant stone face at The Bayon temple in Angkor Thom, Cambodia">
+        <span data-src="img/slider_one.jpg"></span>
+        <span data-src="img/slider_img_new.jpg"     data-media="(min-width: 800px)"></span>
+
+        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+        <noscript>
+            <img src="img/slider_one.jpg" alt="A giant stone face at The Bayon temple in Angkor Thom, Cambodia">
+        </noscript>
+    </span>
+    </div></li>
+			  <li class="slide"><div class="box">
+			  <span data-picture data-alt="A giant stone face at The Bayon temple in Angkor Thom, Cambodia">
+        <span data-src="img/slider_one.jpg"></span>
+        <span data-src="img/slider_img_new.jpg"     data-media="(min-width: 800px)"></span>
+
+        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+        <noscript>
+            <img src="img/slider_one.jpg" alt="A giant stone face at The Bayon temple in Angkor Thom, Cambodia">
+        </noscript>
+    </span>
+    </div></li>
+			</ul>
+			<div class="left_arrow"></div>
+			<div class="right_arrow"></div>
+		</div>
+</div>
+<!--Form start-->
+<div class="backgroundcontent">
+     <form method="post" id="roomsearch">
+	    <div class="container_input displays1">
+		     <div class="form_text">
+			     <span class="fixtext"><strong>Book a room online</strong></span><br>Lorem ispum solor sid<br> ahmed loresin vane.
+			 </div>
+		  <div class="selecter">
+			<label for="selecter">Type of room:</label><br><br>
+	  		<select class="select" id="selecter">
+		        <option value="Mustard">Mustard</option>
+		        <option value="Ketchup">Ketchup</option>
+		        <option value="Relish">Relish</option>
+      		</select>
+	     </div>
+	     <div class="datein_container date_col" id="visi">
+	  		<label for="datepickerin2">Chek-in date:</label><br><br>
+	  		<input id="datepickerin2" class="datepicker" type="text" placeholder="DD/MM/YYYY">
+	    </div> 
+	    </div>
+	 <div class="border-date container_input displays2">
+	    <div class="datein_container date_col">
+	  		<label for="datepickerin">Chek-in date:</label><br><br>
+	  		<input id="datepickerin" class="datepicker" type="text" placeholder="DD/MM/YYYY">
+	    </div> 
+	    <div class="dateout_container date_col">
+	  		<label for="datepickerout2">Chek-out date:</label><br><br>
+	  		<input id="datepickerout2" class="datepicker" type="text" placeholder="DD/MM/YYYY">
+	    </div> 
+	  </div>
+	   <div class="containerbutton container_input border-date">
+	   <div class="dateout_container date_col" id="visi2">
+	  		<label for="datepickerout">Chek-out date:</label><br><br>
+	  		<input id="datepickerout" class="datepicker" type="text" placeholder="DD/MM/YYYY">
+	    </div>
+	     <div class="adult cro">
+		  	 <label for="selecter">Adults:</label><br><br>
+		  	 <selecter class="select fixed_widther">
+		  	 	<option value="1">1</option>
+		  	 	<option value="2">2</option>
+		  	 	<option value="3">3</option>
+		  	 </selecter>
+	  	 </div>
+	  	 <div class="children cro">
+		  	 <label for="selecter">Children:</label><br><br>
+		  	 <selecter class="select fixed_widther">
+		  	    <option value="1">0</option>
+		  	 	<option value="1">1</option>
+		  	 	<option value="2">2</option>
+		  	 	<option value="3">3</option>
+		  	 </selecter>
+	  	 </div>
+	  	 <div class="buttonform cro">
+	  	 	<button class="buttonformid" type="submit" form="roomsearch"><strong>Book now</strong></button>
+	  	 </div>
+	   </div>
+	 </form>
+    <div class="container_content_two">
+	 <div class="container_content right_content">
+	 	<div class="content_img"></div>
+	 	<div class="content_text">
+	 		<span class="prok">Single room<span class="ye"> 110 &#8364;</span></span><br>
+            <p>Lorem ipsum dolor sit amet, consectetuer<br>
+               adipiscing elit, sed diam nonummy nibh <br>
+			   euismod tincidunt ut laoreet dolore magna <br>
+			   aliquam erat volutpat. </p>
+	 	</div>
+	 </div>
+	 <div class="container_content right_content">
+	 	<div class="content_img"></div>
+	 	<div class="content_text">
+	 		<span class="prok">Double room<span class="ye"> 180 &#8364;</span></span><br>
+            <p>Lorem ipsum dolor sit amet, consectetuer<br>
+               adipiscing elit, sed diam nonummy nibh <br>
+			   euismod tincidunt ut laoreet dolore magna <br>
+			   aliquam erat volutpat. </p>
+	 	</div>
+	 </div>
+	 <div class="container_content">
+	 	<div class="content_img"></div>
+	 	<div class="content_text">
+	 		<span class="prok">Suite room<span class="ye"> 210 &#8364;</span></span><br>
+            <p>Lorem ipsum dolor sit amet, consectetuer<br>
+               adipiscing elit, sed diam nonummy nibh <br>
+			   euismod tincidunt ut laoreet dolore magna <br>
+			   aliquam erat volutpat. </p>
+	 	</div>
+	 </div>
+	</div>
+ </div>
+ <p id="content_p"></p>
+ <div class="container_footer">
+ 	<div class="container_fix">
+ 		<div class="corporation">
+ 			&#169; 2012 Paradise Hotel. All Rights Reserved.
+ 		</div>
+ 		<div class="social">
+ 			<a href=""><div class="tt fb"></div></a>
+ 			<a href=""><div class="tt tw"></div></a>
+ 			<a href=""><div class="tt go"></div></a>
+ 			<a href=""><div class="tt in"></div></a>
+ 			<a href=""><div class="tt tube"></div></a>
+ 		</div>
+ 		<div class="menu_footer">
+ 			<ul class="menu_ul">
+ 				<li><a href="index.html">Home</a></li>
+ 				<li><a href="#">Rooms &#38; Suites</a></li>
+ 				<li><a href="#">Reservation</a></li>
+ 				<li><a href="#">Contact</a></li>
+ 			</ul>
+ 		</div>
+ 	</div>
+ </div>
+
+<script>
+    //slider
+    $(document).ready(function(){
+	$('.slider').glide();
+	//slider img
+	//menu
+	$('.menu').click(function(){
+	   $('.menu_body').slideToggle('medium');});
+	 $('.lang').click(function(){
+	   $('.lang_menu').slideToggle('medium');});
+	 //selector
+	   $(function (){
+    $('select, .select').selectric();
+    //datepicker
+    $('input.datepicker').Zebra_DatePicker({format:'d/m/Y'});
+  });
+	   //form submit and ajax
+	   $('#roomsearch').submit(function(){
+	   	var form = $(this),
+	   		error = false;
+	   	form.find('#datepickerout, #datepickerin2').is(function(){
+	   		if ($(this).val() == '') {
+	   			alert('complete the date fields');
+	   			error = true;
+	   			};
+	   		});
+	   	if (!error){
+	   		var dater = form.serialize();
+	   		$.ajax({
+	   			type:'POST',
+	   			url : 'php/hello.php',
+	   			data: dater,
+	   			success:function(){ alert("form start");}
+	   			});
+	   		};return false;
+	   });
+	});
+</script>
+</body>
+</html>
